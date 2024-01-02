@@ -1,0 +1,68 @@
+
+/* banner start */
+@media (min-width:320px) and (max-width:991px){
+    #banner .banner-img img{
+        max-width: 100%;
+    }
+}
+
+/* banner and*/
+
+
+
+
+/* ABOUT START */
+@media (min-width:320px) and (max-width:991px){
+    #about .about-img img{
+        max-width: 100%;
+        transform: scaleX(-1);
+        padding: 20px 0;
+    }
+}
+/* ABOUT AND */
+
+
+/* digital start */
+@media (min-width:320px) and (max-width:991px){
+    #about .digital-img img{
+        max-width: 100%;
+
+    }
+
+}
+
+/* digital and */
+
+/* Experience start */
+@media (min-width:320px) and (max-width:991px){
+    
+.vitez{
+    max-width: 100%;
+    
+}
+    
+    .timeline .year{
+        border-right: none;
+        padding: 20px 12px 20px;
+        position: relative;
+    }
+
+    .timeline{
+        border-left: 1px dashed #7a7a7a;
+    }
+
+    .timeline .year::before {
+        left: 0;
+        right: auto;
+    }
+
+    .timeline .year::after{
+        left: 0;
+        right: auto;
+    }
+
+}
+
+
+/* Experience and*/
+

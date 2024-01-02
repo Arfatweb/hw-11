@@ -1,0 +1,490 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@400;600;700&display=swap');
+
+
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:font{
+    --pramaryfont:'Poppins', sans-serif;
+    --secondaryfont:'PT Sans', sans-serif;
+    --pramarycolor: #FFCC00;
+    --secondarycolor:#353535;
+   
+}
+
+.button{
+    
+    border-radius: 20px;
+background:#FFCC00;
+padding: 16px 45px;
+color: #FFF;
+display:inline-block;
+}
+
+.button.outline{
+    background-color: transparent;
+    border: 1px solid black;
+    color:black;
+    padding: 16px 18px;
+}
+
+ a {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 p ul ol li{
+    margin: 0;
+   
+}
+/* COMMON CSS AND*/
+
+/* navber start*/
+
+#myMenu ul li a{
+    color: var(--secondarycolor);
+font-family: var(--pramaryfont);
+display: inlain-block;
+font-size: 15px;
+font-weight: 500;
+text-transform: uppercase;
+position:relative;
+
+padding:18px 22px 5px
+
+
+
+}
+
+#myMenu ul li a::after{
+    content:'';
+    width: 0;
+    height: 1px;
+    background-color: #353535;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    transition:0.35s;
+ 
+}
+
+#myMenu ul li:hover a::after{
+    width: 100%;
+}
+
+/* navber And*/
+
+/* banner start */
+#banner{
+    padding:72px 0 144px 0;
+}
+
+#banner .banner-text{
+    padding:10px;
+}
+
+
+#banner .banner-text h4{
+    color: #353535;
+font-size: 24px;
+font-weight: 400;
+
+}
+
+#banner .banner-text h1{
+    color: #353535;
+    font-family: PT Sans;
+    font-size: 64px;
+   font-weight: 700;
+   
+}
+
+#banner .banner-text p{
+    color: #353535;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 180%;
+padding: 20px 0 25px 0;
+
+ 
+}
+
+#banner .banner-text  a{
+font-size: 20px;
+font-weight: 600;
+border-radius: 20px;
+
+padding: 16px 20px 16px ;
+}
+
+#banner .banner-text .button{
+    
+    border-radius: 20px;
+    color: #FFF;
+    background:#FFCC00;
+padding: 16px 45px;
+display:inline-block;
+}
+
+  
+
+#banner .banner-text .button.outline{
+    background-color: transparent;
+    border: 1px solid black;
+    color:#353535;
+    font-family: Poppins;
+    padding: 16px 18px ;
+}
+
+#banner .banner-text .button{
+    margin-right :40px;
+  
+}
+
+#banner .social h4{
+    color: #353535;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+
+}
+
+#banner .social ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* banner and */
+
+/* ABOUT START */
+#about .about-text h2{
+    color: #353535;
+font-family: PT Sans;
+font-size: 50px;
+font-weight: 700;
+
+}
+
+#about .about-text p{
+    color: #353535;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 190%; 
+}
+
+#about .about-text a{
+    color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 180%; 
+}
+
+#about{
+   
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+   
+}
+
+#about .container{
+    position: relative;
+}
+
+
+#about .circle{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+/* ABOUT AND */
+
+/* service card start*/
+#service{
+    padding: 90px 0 108px 0 ;
+}
+
+
+
+#service .service-card{
+ border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+padding:35px 47px 57px 47px;
+
+}
+
+#service .service-card h5{
+    color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 180%; 
+padding: 15px 0 16px 0;
+
+}
+
+
+#service .service-card p{
+    color: #7A7A7A;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 190%; 
+}
+
+
+/* service card and*/
+
+/* DIGITAL STATR*/
+#about .digital-text h2{
+    color: #353535;
+font-family: PT Sans;
+font-size: 44px;
+font-weight: 700;
+
+}
+
+#about .digital-text p{
+    color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 190%; 
+}
+
+#about .digital-text a{
+    color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 180%; 
+}
+
+
+
+
+#about .circle-2{
+    position: absolute;
+    right: 50px;
+   top: -25px;
+}
+
+/* DIGITAL AND*/
+
+
+/* abcd start */
+#abcd .abcd-text h3{
+    color: #353535;
+text-align: center;
+font-family: PT Sans;
+font-size: 50px;
+font-weight: 700;
+
+}
+
+#abcd .abcd-text p{
+    color: #353535;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+
+}
+
+#abcd .abcd-text{
+    width: 534px;
+    align-items: center;
+}
+
+
+/* abcd and */
+
+/* *Experience start */
+.vitez h2{
+    width: 432px;
+    height: 67px;
+    color: #353535;
+font-family: PT Sans;
+font-size: 50px;
+font-weight: 700;
+padding: 120px 0 70px 0;
+text-align: center;
+}
+
+.timeline .year{
+    padding:21px 0 80px 0;
+    border-right: 1px dashed #7A7A7A;
+    position: relative;
+   
+}
+
+.timeline .year::after{
+    content:'';
+    width: 42px;
+    height: 42px;
+    background-color: #fff;
+    border: 2px dashed #7A7A7A;
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    border-radius: 50%;
+}
+
+.timeline .year::before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #52AB70;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 9999;
+}
+
+.timeline.green .year::before{
+    background-color:#52AB70;
+}
+
+
+.timeline.red .year::before{
+    background-color:#F17676;
+}
+
+
+.timeline.yellow .year::before{
+    background-color:#FFD233;
+}
+
+.timeline{
+    padding: 80px 0 0 0;
+}
+
+.timeline h3{
+    color: #353535;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 180%;
+}
+
+.timeline .year p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 180%; 
+}
+
+
+.timeline .titel p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 200.5%; 
+}
+
+/* *Experience and */
+
+/* Expart start */
+
+#expart{
+    padding: 150px 0 0 0;
+}
+
+#expart .expart-text h3{
+    color: #353535;
+font-family: PT Sans;
+font-size: 50px;
+font-weight: 700;
+padding: 0 0 49px  0;
+}
+
+#expart .expart-text p{
+    color: #7A7A7A;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 200%;
+}
+
+#expart .expart-menu a {
+    
+        background-color: transparent;
+        border: 1px solid black;
+        color:black;
+        border-radius: 15px;
+        padding: 16px 0 15px 0;
+
+    } 
+
+    #expart ul{
+        justify-content: center;
+    }
+
+    #expart .expart-menu ul li button{
+        color: #353535;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 180%; /* 32.4px */
+        padding: 16px 64px;
+    }
+
+    #expart .expart-menu ul li button.active{
+        background-color: transparent !important;
+        color: #353535;
+        border: 1px solid #353535;
+        border-radius: 20px;
+    }
+    
+   
+
+    .skill-card  h4{
+        color: #353535;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 180%; 
+
+}
+
+.skill-card  .progress-bar{
+    background-color: #F16500;
+    
+}
+
+
+.skill-card  .progress-bar .abc1{
+    background-color: #03249B;
+    
+}
+
+.skill-card  .progress-bar .abc2{
+    background-color: #700D60;
+    
+}
+
+.skill-card  .progress-bar .abc3{
+    background-color: #234BDA;
+    
+}
+/* Expart And*/
